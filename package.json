@@ -2,10 +2,10 @@
   "name": "test-task-list",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/index.js",
+  "main": "index.js",
   "scripts": {
     "install": "npm install",
-    "start": "node backend/index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",

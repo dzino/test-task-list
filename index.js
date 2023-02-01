@@ -2,12 +2,12 @@ require("dotenv").config();
 const express = require("express"),
   path = require("path"),
   cookieParser = require("cookie-parser");
-const router = require("./router");
+const router = require("./backend/router");
 
 const PORT = process.env.PORT || 8080;
 
 const app = express();
-app.use(express.static(path.join(__dirname, "..", "/frontend/build")));
+app.use(express.static(path.join(__dirname, "/frontend/build")));
 app.use(express.json());
 app.use(cookieParser(process.env.SESSION));
 app.use(function (req, res, next) {
