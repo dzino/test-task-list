@@ -4,10 +4,8 @@
   "description": "",
   "main": "backend/index.js",
   "scripts": {
-    "install": "npm install && cd frontend && npm install",
-    "startBack": "node backend/index.js",
-    "startFront": "cd frontend && npm run start",
-    "build": "cd frontend && npm run build && cd .. && node backend/index.js"
+    "install": "npm install",
+    "start": "node backend/index.js"
   },
   "keywords": [],
   "author": "",
