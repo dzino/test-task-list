@@ -4,7 +4,7 @@ const express = require("express"),
   cookieParser = require("cookie-parser");
 const router = require("./backend/router");
 
-const PORT = 9002;
+const PORT = 8080;
 
 const app = express();
 app.use(express.static(path.join(__dirname, "/frontend/build")));
